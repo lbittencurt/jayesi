@@ -4,7 +4,6 @@
  * Use the console.log() function to print into the console
  */
 export default function main() {
-  //TODO: type here your code
   console.log('Hello, World!')
 }
 
