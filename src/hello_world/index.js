@@ -5,7 +5,6 @@
  */
 export default function main() {
   //TODO: type here your code
-  console.log('Hello, World!')
 }
 
 main();
