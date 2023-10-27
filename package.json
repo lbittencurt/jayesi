@@ -1,0 +1,22 @@
+{
+  "name": "jayesi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test:dev": "npx mocha -w --parallel src/**/*.test.js",
+    "test:cov": "npx nyc npx mocha --parallel src/**/*.test.js",
+    "test": "npx mocha --parallel src/**/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4",
+    "sinon-chai": "^3.7.0"
+  }
+}
